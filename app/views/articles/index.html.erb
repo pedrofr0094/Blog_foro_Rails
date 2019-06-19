@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Articles</title>
+</head>
+<body>
+<h1 align="center">All Articles</h1>
+
+<%= render 'article', obj: @article %>
+<div align="center">
+  <%= will_paginate @article %>
+</div>
+</body>
+</html>
